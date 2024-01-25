@@ -1,0 +1,456 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+a{
+    text-decoration:none;
+}
+ul{
+    list-style:none;
+}
+
+.contenar{
+    width:1320px;
+    margin: 0 auto;
+}
+
+/* Common css style end */
+/* main nav style start */
+
+nav {
+    padding: 35px 0px 35px 0px;
+    position: absolute;
+    width: 100%;
+}
+
+nav .main_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .main_nav .nav_logo{
+
+    
+}
+
+nav .main_nav ul {
+    display: flex;
+}
+nav .main_nav ul li{
+
+
+}
+nav .main_nav ul li a {
+    padding-left: 30px;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+nav .main_nav ul li .active2 {
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/* bennar section style start */
+.bennar{
+    width:100%;
+    background:url('img/Rectangle\ 1\ 1.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+
+}
+
+.bennar .bennar_text {
+    padding: 460px 0px 462px 0px;
+}
+
+.bennar .bennar_text p {
+    color: #FFC178;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    margin-bottom: 37.78px;
+}
+.bennar .bennar_text h1 {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 100px;
+    text-transform: capitalize;
+}
+.bennar .bennar_text h3{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 88px;
+    font-weight: 400;
+    line-height: 100px;
+    text-transform: capitalize;
+}
+
+/* bennar section style end */
+
+/* main nav style end */
+
+
+
+/* Holiday section style start */
+.holiday{
+width:100%;
+background-color: #000;
+
+}
+.holiday .holiday_flex{
+    display:flex;
+    justify-content:space-between; 
+}
+.holiday .holiday_flex .holiday_img{
+width:45%;
+padding:313px 0px 0px 0px;
+    
+}
+.holiday .holiday_flex .holiday_img img{
+    width:100%;
+        
+    }
+.holiday .holiday_flex .holiday_text{
+    width:40%;
+    padding:358px 0px 0px 0px;
+    
+}
+.holiday .holiday_flex .holiday_text h5{
+    color: #FBD784;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    padding-bottom:13px;
+}
+.holiday .holiday_flex .holiday_text h2 {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+}
+.holiday .holiday_flex .holiday_text p {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    text-transform: uppercase;
+    padding-bottom: 66px;
+}
+.holiday .holiday_flex .holiday_text a{
+    color: #FBD784;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    
+}
+
+
+
+/* Holiday section style end */
+
+
+/* Other section style start */
+.other_section{
+ width:100%;
+ background-color:#000;
+}
+.other_section .oteher{
+    padding:364px 0px 0px 0px;
+}
+.other_section .contenar .other_img{
+    width:100%;
+    background:url('img/image\ 2\ 1.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    
+}
+.other_section .contenar .other_img img{
+   width:100%;
+}
+.other_section .contenar .other_img .other_text {
+    width: 66%;
+    margin: 0 auto;
+    text-align: center;
+    padding:597px 0px 0px 0px;
+}
+
+.other_section .contenar .other_img .other_text h5{
+    color: #FBD784;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    padding-bottom:13px;
+}
+.other_section .contenar .other_img .other_text h3{
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom:14px;
+}
+.other_section .contenar .other_img .other_text p{
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: uppercase;
+    padding-bottom:26px;
+}
+.other_section .contenar .other_img .other_text a {
+    display: inline-block;
+    color: #FBD784;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 32px;
+}
+
+
+
+/* Other section style end */
+
+
+/* culture section style start */
+
+.culture{
+    width:100%;
+    background-color: #000;
+
+}
+.culture .culture_flex{
+    display:flex;
+    justify-content:space-between; 
+    
+}
+.culture .culture_flex .culture_text {
+    width: 40%;
+    padding: 448.08px 0px 0px 0px;
+}
+.culture .culture_flex .culture_text h5{
+    color: #FBD784;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    padding-bottom:19px;
+    
+}
+.culture .culture_flex .culture_text h2{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom:19px;
+}
+.culture .culture_flex .culture_text p{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: uppercase;
+    padding-bottom:47px;
+}
+.culture .culture_flex .culture_text a{
+    color: #FBD784;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.culture .culture_flex .culture_img {
+    width: 50%;
+    padding: 295.08px 0px 0px 0px;
+}
+.culture .culture_flex .culture_img img{
+    width:100%;
+        
+    }
+/* culture section style end */
+
+/* Footer section style start */
+footer {
+    width: 100%;
+    background-color: #000;
+}
+footer .footer_text {
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer_logo{
+    padding-top:200px;
+    
+}
+footer .footer_logo h2{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 0.48px;
+    text-transform: capitalize;
+   
+    
+}
+footer .footer_text .footer_right {
+    display: flex;
+    padding-top:217px;
+}
+footer .footer_text .footer_right p {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;
+    margin-right: 18px;
+    padding-top: 13px;
+}
+
+footer .footer_text .footer_right a {
+    width: 232px;
+    height: 59px;
+    color: #000;
+    border-radius: 10px;
+    background: #FFA343;
+    font-family: "Open Sans";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 19px;
+}
+
+/* footer to section style end */
+
+.vacation{
+   
+
+}
+.vacation .vacation_text{
+
+}
+.vacation .vacation_text h4{
+color: #FFF;
+font-family: "Open Sans";
+font-size: 36px;
+font-weight: 700;
+letter-spacing: -0.3px;
+text-transform: capitalize;
+padding-bottom:49px;
+}
+.vacation .vacation_text p{
+ color: #FFF;
+font-family: "Open Sans";
+font-size: 15px;
+font-weight: 400;
+letter-spacing: -0.205px;
+text-transform: capitalize;
+padding-bottom:38px;
+}
+.vacation .vacation_text ul {
+    display: flex;
+}
+.vacation .vacation_text ul li {
+    padding-right: 32px;
+}
+.vacation .vacation_text ul li a {
+    font-size: 28px;
+    color: white;
+}
+
+
+.vacation {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 82px;
+}
+
+.vacation .Services{
+
+}
+.vacation .Services{
+
+}
+
+.vacation .Services ul{
+list-style:none;
+}
+.vacation .Services ul li {
+    padding-bottom: 17px;
+}
+
+.vacation .Services ul li a{
+    text-decoration:none;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 0px; 
+    letter-spacing: -0.205px;
+    text-transform: capitalize;
+}
+.vacation .Services ul li .active {
+    color: #FFD1A0;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 0px;
+    letter-spacing: -0.232px;
+    text-transform: capitalize;
+    display: inline-block;
+    padding-bottom: 29px;
+}
+
+
+.copyright {
+    padding: 70px 0px 38px 0px;
+}
+.copyright h5{
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+}
+/* Footer section style end */
